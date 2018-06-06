@@ -30,6 +30,10 @@
 		<module>qualifier</module>
 		<module>bean</module>
 		<module>beanLifeCycle</module>
+		<module>database</module>
+		<module>jpa</module>
+		<module>rest</module>
+		<module>integration</module>
 	</modules>
 
 </project>

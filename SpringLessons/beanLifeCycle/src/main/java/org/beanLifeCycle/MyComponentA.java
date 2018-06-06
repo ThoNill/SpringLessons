@@ -1,12 +1,7 @@
 package org.beanLifeCycle;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 
 public class MyComponentA implements IComponent{
     private int countPreDestroy=0;
