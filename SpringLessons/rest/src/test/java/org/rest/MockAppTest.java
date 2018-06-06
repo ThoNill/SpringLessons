@@ -23,8 +23,8 @@ public class MockAppTest {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        this.mockMvc.perform(get("/greeting?name=Era")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("Era")));
+        this.mockMvc.perform(get("/greeting?name=Thomas")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string(containsString("Thomas")));
         
     }
 }

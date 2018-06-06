@@ -23,8 +23,8 @@ public class AppTest {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        Kunde kunde =  this.restTemplate.getForObject("http://localhost:" + port + "/greeting?name=Era",
+        Kunde kunde =  this.restTemplate.getForObject("http://localhost:" + port + "/greeting?name=Thomas",
                 Kunde.class);
-        assertEquals("Era",kunde.getName());
+        assertEquals("Thomas",kunde.getName());
     }
 }

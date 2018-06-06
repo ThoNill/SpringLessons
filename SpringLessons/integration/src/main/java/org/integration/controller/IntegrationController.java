@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IntegrationController {
     
-    @Autowired
-    EventGate gate;
+ //   @Autowired
+  //  EventGate gate;
     
     @Autowired
     private EventGenerator generator; 
     
     @RequestMapping("/greeting")
     public String aufruf( @RequestParam(value = "number", defaultValue = "0") String l) {
-        gate.placeOrder(20);
+      //  gate.placeOrder(20);
         generator.sendEvent(10); 
         return l;
     }
