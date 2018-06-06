@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>SpringLessons.rest</artifactId>
-	<name>empty</name>
+	<name>rest</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

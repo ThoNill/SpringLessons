@@ -10,7 +10,7 @@
 	</parent>
 
   <artifactId>SpringLessons.jpa</artifactId>
-  <name>database</name>
+  <name>jpa</name>
  
 	
 	<dependencies>

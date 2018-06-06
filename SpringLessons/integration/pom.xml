@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>SpringLessons.integration</artifactId>
-	<name>empty</name>
+	<name>integration</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
