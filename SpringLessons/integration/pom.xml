@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>SpringLessons.rest</artifactId>
+	<artifactId>SpringLessons.integration</artifactId>
 	<name>empty</name>
 	<dependencies>
 		<dependency>

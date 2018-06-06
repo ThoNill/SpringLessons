@@ -1,21 +1,16 @@
 package org.jpa;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
+import org.jpa.entities.dbA.A;
+import org.jpa.entities.dbB.B;
 import org.jpa.repo.dbA.KundenRepository;
 import org.jpa.repo.dbB.RechnungRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.context.transaction.TransactionConfiguration;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
-import org.jpa.entities.dbA.*;
-import org.jpa.entities.dbB.*;
 import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringRunner.class)

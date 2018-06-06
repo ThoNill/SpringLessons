@@ -1,7 +1,5 @@
 package org.integration.controller;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 import org.integration.EventGate;
 import org.integration.EventGenerator;
 import org.springframework.beans.factory.annotation.Autowired;

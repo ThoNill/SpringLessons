@@ -1,10 +1,11 @@
 package org.integration;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.integration.annotation.IntegrationComponentScan;
+import org.springframework.integration.config.EnableIntegrationManagement;
 import org.springframework.integration.config.EnableIntegration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.integration.annotation.IntegrationComponentScan;
 
 @SpringBootApplication // simple SpringBoot application
 @EnableIntegration
