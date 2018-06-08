@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 // Class that run the tests
 @SpringBootTest(classes = org.database.TestMultiDatabaseConfig.class)
-// Run tests with the TestDatabaseConfig configuration
+// Run tests with the DatabaseConfig configuration
 public class AppMultiTest {
     
     @Autowired
